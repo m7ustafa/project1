@@ -15,6 +15,30 @@
         text-align: center;
         color: #777;
       }
+      #h3 {
+        color: #777;
+        width: 100%;
+        text-align: center;
+        margin: 40px auto;
+      }
+
+      .div1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: 1px solid black;
+        width: 380px;
+        height: 120px;
+      }
+      #h1-inside {
+        width: 100%;
+        margin-left: -1em;
+        height: 10%;
+        text-align: center;
+      }
+      #text-div1 {
+        width: 200px;
+        font-size: small;
+      }
     </style>
   </head>
   <body>
@@ -43,6 +67,21 @@
           dedicated authors publish the very best books possible.
         </p>
       </section>
+      <h3 id="h3">Available books</h3>
     </div>
+    <section class="books">
+      <div class="div1">
+        <div>
+          <img src="./pic1.png" alt="" />
+        </div>
+        <div>
+          <h3>all this time</h3>
+          <p id="text-div1">
+            A modern-day fairy tale about two teenagers suffering from loss who
+            find healing in one another
+          </p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
