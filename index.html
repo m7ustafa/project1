@@ -15,7 +15,7 @@
         color: #777;
         width: 100%;
         text-align: center;
-        margin: 40px auto;
+        margin: 50px auto;
       }
       .books-1 {
         gap: 30px;
@@ -24,12 +24,17 @@
         justify-content: center;
         display: flex;
       }
+      img {
+        height: 100%;
+      }
       .div1 {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 0.5fr 1fr;
         border: 1px solid black;
+        border-radius: 10px;
+        overflow: hidden;
         width: 380px;
-        height: 120px;
+        height: 100%;
         gap: 20px;
       }
       #h1-inside {
@@ -39,8 +44,20 @@
         text-align: center;
       }
       #text-div1 {
-        width: 200px;
+        width: 100%;
         font-size: small;
+      }
+      button {
+        border-radius: 5px;
+        padding: 0px 10px 0px 10px;
+        margin-left: 130px;
+        margin-bottom: 10px;
+        color: white;
+        background-color: rgb(129, 127, 246);
+      }
+      #img3,
+      #img5 {
+        height: 100%;
       }
     </style>
   </head>
@@ -82,6 +99,7 @@
             A modern-day fairy tale about two teenagers suffering from loss who
             find healing in one another
           </p>
+          <button>details</button>
         </div>
       </div>
       <div class="div1">
@@ -94,11 +112,13 @@
             A modern-day fairy tale about two teenagers suffering from loss who
             find healing in one another
           </p>
+          <button>details</button>
         </div>
       </div>
     </section>
+    <br />
     <section class="books-1">
-      <div class="div1">
+      <div class="div1" id="img3">
         <div>
           <img src="./pic3.png" alt="" />
         </div>
@@ -108,6 +128,7 @@
             Heather Christle has just lost a dear friend to suicide and now must
             reckon with her own depression and the birth of her first child
           </p>
+          <button>details</button>
         </div>
       </div>
       <div class="div1">
@@ -120,6 +141,36 @@
             Summer Bird Blue Parents need to know that Akeri Dawn Bowmans Summer
             Bird Blue Seto
           </p>
+          <button>details</button>
+        </div>
+      </div>
+    </section>
+    <br />
+    <section class="books-1">
+      <div class="div1" id="img5">
+        <div>
+          <img src="./pic5.png" alt="" />
+        </div>
+        <div>
+          <h3>The Possible World</h3>
+          <p id="text-div1">
+            An expertly stitched story that spans nearly a century from the
+            Great Depression through the Vietnam War era and into the present
+          </p>
+          <button>details</button>
+        </div>
+      </div>
+      <div class="div1">
+        <div>
+          <img src="./pic6.png" alt="" />
+        </div>
+        <div>
+          <h3>Michel Faber</h3>
+          <p id="text-div1">
+            The Book of Strange New Things is the love story of two devoted and
+            married Christians
+          </p>
+          <button>details</button>
         </div>
       </div>
     </section>
